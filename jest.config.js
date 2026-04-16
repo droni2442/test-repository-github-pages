@@ -1,6 +1,6 @@
 // jest.config.js
 module.exports = {
-    // setupFilesAfterEnv: ['<rootDir>/src/jest.setup.js'],
+    setupFilesAfterEnv: ['<rootDir>/src/jest.setup.js'],
 
     // Automatically clear mock calls and instances between every test
     clearMocks: true,
