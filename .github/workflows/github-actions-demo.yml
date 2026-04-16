@@ -26,5 +26,10 @@ jobs:
       - name: build storybook
         run: npm run build:storybook
 
+      - name: debug files
+        run: ls -la # Посмотрим, есть ли тут jest.setup.js
+
       - name: run tests
-        run: npm run test
+        run: npm run test -- --no-cache
+
+        
