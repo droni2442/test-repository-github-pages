@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", // Вместо ES5
+        "moduleResolution": "bundler", // Или "node" (но убери предупреждение)
+        "ignoreDeprecations": "6.0", // Добавь эту строку, чтобы скрыть варнинги
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "noEmit": false,
+        "jsx": "react-jsx"
+    },
+    "include": ["src"]
+}
